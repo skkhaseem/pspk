@@ -10,9 +10,9 @@
     <table border="1"cellpadding="10"cellspacing="10">
     
     <form action="./index2.html"method="get"auto comolete="off">
-  <tr><td>USERNAME:<input type="text"pattern="[a-z]+@{A-Z}" required litle="min 3 and max 10"></td></tr><br>
+  <tr><td>USERNAME:<input type="text"pattern="[a-z]+@{A-Z}" minilenght="6"maxlenght="16" required litle="min 3 and max 10"></td></tr><br>
    <tr>
-    <td>FORGET PASSWORD<input type="text" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[$%&#@]).{8,16}"
+    <td>FORGET PASSWORD<input type="text" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[$%&#@]).{8,16}"minimum="8"maxlenght="16"required
       title=" small , cap , specname="@ digit and length min 8 , max 16 required></td>
    </tr>
    <tr>

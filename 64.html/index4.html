@@ -10,10 +10,10 @@
     <table border="1"cellpadding="10"cellspacing="10">
     
     <form action="./index2.html"method="get"auto comolete="off">
-  <tr><td>USERNAME:<input type="text"pattern="[a-z]+@{A-Z}" required litle="maximum 6 and minimum 10"></td></tr><br>
+  <tr><td>USERNAME:<input type="text"pattern="[a-z]+@{A-Z}"minilenght="6"maxlenght="16" required litle="maximum 6 and minimum 10"></td></tr><br>
    <tr>
-   <td>PASSWORD<input type="text" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[$%&#@]).{8,16}"
-    title=" small , cap , specname="@ digit and length min 8 , max 16 required></td>
+   <td>PASSWORD<input type="text" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[$%&#@]).{8,16}"minlength="8"maxlenght="16"required
+    title=" small , cap , specname="@ digit and lenght min 8 ,maxlenght 16 required></td>
 </tr><br>
    </tr>
    <tr>
