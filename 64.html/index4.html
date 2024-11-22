@@ -12,12 +12,14 @@
     <form action="./index2.html"method="get"auto comolete="off">
   <tr><td>USERNAME:<input type="text"pattern="[a-z]+@{A-Z}" required litle="maximum 6 and minimum 10"></td></tr><br>
    <tr>
-   <td> PASSWORD:<input type="text"patten="[A-Z ]"required title="maximum 6 and 10"></td><br>
+   <td>PASSWORD<input type="text" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[$%&#@]).{8,16}"
+    title=" small , cap , specname="@ digit and length min 8 , max 16 required></td>
+</tr><br>
    </tr>
    <tr>
     <td>
         <lable for="mail"><b>Email</b></lable><br>
-        <input type="text"id="mail" pattern required="[a-z/d]+@[gmail|yahoo|outlook]/.[com|co|org|in]"title="a-z/d]+@[gmail|yahoo|outlook]/.[com|co|org|in">
+        <input type="text"id="mail" pattern="[\da-z]+@(gmail|yahoo|outlook)\.com" required>
     </td>
    </tr>
    <tr>
